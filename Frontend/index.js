@@ -1,4 +1,7 @@
-var product1 = { title: "Amr buker Jala", price: 2000 };
-var product2 = { title: "Amr Moner Jala", price: 2001 };
-var products = [product1, product2];
-console.log(products);
+function processData(input, _a) {
+    var _b = _a === void 0 ? { reverse: false } : _a, reverse = _b.reverse;
+    if (reverse) {
+        console.log(input);
+    }
+}
+processData("Number", { reverse: false });
